@@ -2,55 +2,68 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Saurabh Kesharwani | Software Engineer</title>
+  <title>Saurabh Kesharwani | Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-  <h1>Saurabh Kesharwani</h1>
+<nav>
+  <h2>Saurabh</h2>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section id="home" class="hero">
+  <h1>Hi, I'm <span>Saurabh</span></h1>
   <p>Software Development Engineer | Java | Spring Boot | AWS</p>
-</header>
-
-<section>
-  <h2>About Me</h2>
-  <p>
-    Software Development Engineer with 3+ years of experience building
-    scalable backend systems using Java, Spring Boot, and AWS.
-  </p>
+  <a href="#projects" class="btn">View Projects</a>
 </section>
 
-<section>
+<section id="skills" class="section">
   <h2>Skills</h2>
-  <ul>
-    <li>Java, Spring Boot, Microservices</li>
-    <li>AWS, Docker, CI/CD</li>
-    <li>MySQL, PostgreSQL, DB2</li>
-    <li>Angular, REST APIs</li>
-  </ul>
+  <div class="skill">
+    <span>Java & Spring Boot</span>
+    <div class="bar"><div style="width:90%"></div></div>
+  </div>
+  <div class="skill">
+    <span>AWS & Docker</span>
+    <div class="bar"><div style="width:80%"></div></div>
+  </div>
+  <div class="skill">
+    <span>Angular</span>
+    <div class="bar"><div style="width:70%"></div></div>
+  </div>
 </section>
 
-<section>
+<section id="experience" class="section">
   <h2>Experience</h2>
-  <h3>TCS — Software Development Engineer</h3>
-  <p>Nov 2022 – Present</p>
-  <ul>
-    <li>Built cloud-native microservices</li>
-    <li>Optimized DB performance by 25%</li>
-    <li>Reduced deployment time by 30%</li>
-  </ul>
+  <div class="card">
+    <h3>TCS — Software Development Engineer</h3>
+    <p>Built cloud-native Spring Boot microservices, optimized DB performance by 25%, automated CI/CD pipelines.</p>
+  </div>
 </section>
 
-<section>
+<section id="projects" class="section">
   <h2>Projects</h2>
-  <h3>Hotel Booking Platform</h3>
-  <p>Java | Spring Boot | MySQL | Angular</p>
+  <div class="projects">
+    <div class="project-card">
+      <h3>Hotel Booking Platform</h3>
+      <p>Java, Spring Boot, MySQL, Angular</p>
+    </div>
+  </div>
 </section>
 
-<footer>
+<section id="contact" class="section">
+  <h2>Contact</h2>
   <p>Email: saurabhkesharwani566@gmail.com</p>
   <p>LinkedIn: linkedin.com/in/saurabhkesharwani</p>
-</footer>
+</section>
 
+<script src="script.js"></script>
 </body>
 </html>
